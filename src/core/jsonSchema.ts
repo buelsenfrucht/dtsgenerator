@@ -255,7 +255,7 @@ export function searchAllSubSchema(schema: Schema, onFoundSchema: (subSchema: Sc
             if (types == null) {
                 return;
             }
-            for (const mime of ['application/json', 'application/x-www-form-urlencoded']) {
+            for (const mime of ['application/json', 'application/x-www-form-urlencoded', 'application/problem+json']) {
                 const mt = types[mime];
                 if (mt != null) {
                     setSubId(mt.schema, keys);

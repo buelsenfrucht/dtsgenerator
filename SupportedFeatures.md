@@ -98,6 +98,7 @@ The base JSON Schema version is Draft-07
 |/components/requestBodies/*/content/"application/x-www-form-urlencoded"|
 |/components/requestBodies/*/$ref|
 |/components/responses/*/content/"application/json"|
+|/components/responses/*/content/"application/problem+json"|
 |/components/responses/*/content/"application/x-www-form-urlencoded"|
 |/components/responses/*/$ref|
 |/paths/\*/parameters/*/schema|
